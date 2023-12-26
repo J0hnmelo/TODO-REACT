@@ -1,0 +1,22 @@
+.todo-section{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-section input {
+  width: 25%;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(216, 202, 202);
+}
+.todo-section input:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff61;
+}
+.todo-section input::placeholder {
+  font-style: italic;
+}
